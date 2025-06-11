@@ -1,0 +1,31 @@
+{
+  "name": "tidio-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Tidio API integration with Claude Desktop",
+  "main": "tidio-mcp.js",
+  "scripts": {
+    "start": "node tidio-mcp.js",
+    "test": "echo 'Testing MCP server...' && echo '{\"jsonrpc\": \"2.0\", \"id\": 1, \"method\": \"tools/list\", \"params\": {}}' | node tidio-mcp.js"
+  },
+  "keywords": [
+    "mcp",
+    "tidio",
+    "claude",
+    "chatbot",
+    "customer-support",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ufarooqm/tidio-mcp-server.git"
+  }
+}
