@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) server that connects Claude Desktop to Tidio's API, allowing you to access chat conversation data, customer support tickets, and operator information directly from Claude.
 
-## 🚀 Quick Start for Colleagues
+## 🚀 Quick Start
 
 ### Prerequisites
 - **Node.js 18+** - [Download here](https://nodejs.org/)
